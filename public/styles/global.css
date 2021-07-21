@@ -25,28 +25,15 @@ body{
     background: var(--grey-medium);
 }
 
-#login_register{
-    margin: auto;
-    background: var(--grey-light);
-    width: 37.5rem;
-    height: 37.5rem;
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
-header {
-    text-align: center;
-}
-
-header h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 45px;
-    color: var(--green-dark);
-}
-
-header h3{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    font-size: 17px;
-    color: var(--green-dark);
-
-}
