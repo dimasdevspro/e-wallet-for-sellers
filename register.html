@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles/global.css" />
+    <link rel="stylesheet" href="/public/styles/index.css" />
+    <title>E-Wallet for Sellers</title>
+</head>
+<body>
+    <section>
+        <header>
+            <img src="/assets/register.svg" alt="Logo by Register">
+            <h1>Register´s Seller</h1>
+            <img src="/assets/wallet.svg" alt="Logo by E-wallet">
+        </header>
+        <form action="/create-seller" method="post">
+            <p>Name</p>
+            <label class="sr-only" for="name-seller">Name</label>
+        <input type="text" name="name" id="name-seller" placeholder="insert to your name" required>
+            <p>Email</p>
+            <label class="sr-only" for="email-seller">Email</label>
+        <input type="email" name="email" id="email-seller" placeholder="insert to your email" required>
+            <p>Phone</p>
+            <label class="sr-only" for="phone-seller">Phone</label>
+        <input type="tel" name="phone" id="phone-seller" 
+        placeholder="+xx(xx)xxxxxxxxx"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <p>Login</p>
+            <label class="sr-only" for="login-seller">Login</label>
+        <input type="text" name="login" id="login-seller" placeholder="choice your nickname">
+            <p>Password</p>
+            <label class="sr-only" for="pass-seller">Password</label>    
+        <input type="password" name="password" id="password-seller" placeholder="choice your password">
+            <button>
+            <img src="/assets/save.svg" alt="">
+        </button>
+        </form>
+    </section>
+</body>
+</html>
