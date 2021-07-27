@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    justify-items: end;
+    margin: 3rem 3.7rem 4.3rem 0;
+}
+
+#image-logo{
+    grid-column-start: 2;
+    grid-column-end: 2;
+ 
+}
