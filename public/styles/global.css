@@ -37,3 +37,10 @@ body{
     border-width: 0;
 }
 
+.container{
+    margin: auto;
+    background: var(--grey-light);
+    width: 37.5rem;
+    height: 37.5rem;
+}
+
