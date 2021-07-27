@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    justify-items: end;
+    margin: 3rem 3.7rem 4.3rem 0;
+}
+
+#image-logo{
+    grid-column-start: 2;
+    grid-column-end: 2;
+ 
+}
+
+form {
+    display: grid;
+    grid-template-columns: 5.3rem 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 1.6rem;
+    grid-row-gap: 1.1rem;
+    margin: 0 8.5rem 0 3.3rem;
+    align-items: center;
+
+}
+
+form input {
+    width: 20.6rem;
+    height: 3.7rem;
+    background: var(--grey-medium);
+}
+
+form button{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    justify-self: end;
+}
