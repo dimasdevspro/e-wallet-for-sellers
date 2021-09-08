@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles/global.css" />
+    <link rel="stylesheet" href="/public/styles/form-costumer.css" />
+    <title>E-Wallet for costumers</title>
+<body>
+    <section class="container">
+        <header>
+            <div id="container-costumer">
+                <img id="image-costumer" src="/assets/login.svg" alt="Imag e by costumer">
+                <p>Costumer´s Infos</p>
+            </div>
+            <img id="image-logo" src="/assets/wallet.svg" alt="Logo by E-wallet">
+        </header>
+
+        <form action="/create-costumer" method="post">
+            <p>Costumer</p>
+            <label class="sr-only" for="name-costumer">Name</label>
+        <input type="text" name="name" id="name-costumer" placeholder="insert to your name" required>
+            <p>Email</p>
+            <label class="sr-only" for="email-costumer">Email</label>
+        <input type="email" name="email" id="email-costumer" placeholder="insert to your email" required>
+            <p>Phone</p>
+            <label class="sr-only" for="phone-costumer">Phone</label>
+        <input type="tel" name="phone" id="phone-costumer" 
+        placeholder="+xx(xx)xxxxxxxxx"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <p>Informations</p>
+            <textarea name="informations" id="infos" ></textarea>
+            <button id="buttonlist2">
+                <img  src="/assets/list.svg" style="width: 31px; height: 35px; margin-bottom: 0.3rem;" alt="Button for list costumers">
+            </button>
+            <button id="buttonupdate">
+            <img src="/assets/update.svg" alt="Button for update costumer">
+        </button>
+        <button id="buttondelete">
+            <img src="/assets/delete.svg" alt="Button for delete costumer">
+        </button>
+        </form>
+
+    </section>
+</body>
+</html>
