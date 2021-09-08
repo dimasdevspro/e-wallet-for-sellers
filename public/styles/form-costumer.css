@@ -1,0 +1,81 @@
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    justify-items: end;
+    align-items: center;
+    margin: 3rem 3.7rem 0rem 3.6rem;
+}
+
+#container-costumer {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    justify-self: left;
+    justify-items: end;
+}
+
+#container-costumer p,
+form p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--green-dark);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+#image-costumer{
+   
+    justify-self: left;
+}
+
+#image-logo{
+    grid-column-start: 2;
+    grid-column-end: 2;
+ 
+}
+
+form {
+    margin: 3.2rem 3.7rem 4.3rem 3.6rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    grid-row-gap: 1.5rem;
+}
+
+form input,
+form textarea {
+    font-family: 'Poppins', sans-serif;
+    color: var(--green-dark);
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: var(--green-medium);
+    border: 1px solid var(--grey-medium);
+}
+
+
+form button {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#buttonlist,
+#buttonsave,
+#buttonupdate,
+#buttondelete {
+    width:3.1rem;
+    justify-self: right;
+}
+
+#buttonlist {
+    margin-right: 3.5rem;
+}
+
+
+#buttonlist2 {
+    margin-right: -3.5rem;
+}
+
+#buttonupdate{
+    margin-right: 3.5rem;
+}
