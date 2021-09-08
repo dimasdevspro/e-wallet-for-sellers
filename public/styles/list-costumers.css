@@ -1,0 +1,75 @@
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    justify-items: end;
+    align-items: center;
+    margin: 3rem 3.7rem 4.3rem 6.1rem;
+}
+
+#container-seller {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    justify-self: left;
+    justify-items: end;
+}
+
+#container-seller p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--green-dark);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+#image-seller{
+   
+    justify-self: left;
+}
+
+#image-logo{
+    grid-column-start: 2;
+    grid-column-end: 2;
+ 
+}
+
+#costumers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 4.7rem 3.8rem 0 6.1rem;
+}
+
+#costumers form {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#costumers form button {
+    grid-area: button;
+    background-color: var(--grey-medium);
+    width: 7rem;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 1px 0px 0px;
+    color: var(--green-dark);
+}
+
+#costumers form button:hover {
+    background-color: var(--grey-dark);
+}
+
+#costumers form input {
+    font-family: 'Poppins', sans-serif;
+    color: var(--green-dark);
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: var(--green-medium);
+    border: 1px solid var(--grey-medium);
+}
+
+#costumers form input::placeholder {
+    color: var(--green-dark);
+}
