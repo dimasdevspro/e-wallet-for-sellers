@@ -1,0 +1,63 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    position: relative;
+    margin: 1.5rem 3.6rem 1.8rem 3rem;
+    grid-template-areas: 
+    'image-register image-logo'
+    'h1 image-logo'
+    'left right';
+}
+
+#image-register {
+    grid-area: image-register;
+    margin-top: 2.1rem;
+}
+
+#image-logo {
+    grid-area: image-logo;
+    padding-left: 5rem;
+}
+
+h1 {
+    grid-area: h1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--green-dark);
+}
+
+form {
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: 7.3rem 20.6rem;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 3.2rem;
+    grid-template-areas: 
+    'p input'
+    'p input'
+    'p input'
+    'p input'
+    'p input'
+    'p button'
+    'left right';
+}
+
+form p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--green-dark);
+}
+
+form input {
+    outline: none;
+    height: 2.7rem;
+    background: var(--grey-medium)
+}
+
+form button {
+   grid-area: button;
+    justify-self: end;
+}
